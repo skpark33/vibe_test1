@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+    <!-- 배경 -->
+    <rect width="800" height="700" fill="#121212"/>
+    
+    <!-- 계산기 프레임 -->
+    <rect x="50" y="50" width="700" height="600" rx="20" fill="#1e1e1e"/>
+    
+    <!-- 디스플레이 영역 -->
+    <g>
+        <text x="730" y="120" font-family="monospace" font-size="24" fill="#888888" text-anchor="end">2 + sin(30)</text>
+        <text x="730" y="170" font-family="monospace" font-size="48" fill="#ffffff" text-anchor="end">2.5</text>
+    </g>
+    
+    <!-- 버튼 영역 -->
+    <g transform="translate(70, 220)">
+        <!-- 상단 기능 버튼 -->
+        <g>
+            <circle cx="50" cy="50" r="35" fill="#a6a6a6"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#000000" text-anchor="middle">AC</text>
+        </g>
+        <g transform="translate(100, 0)">
+            <circle cx="50" cy="50" r="35" fill="#a6a6a6"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#000000" text-anchor="middle">±</text>
+        </g>
+        <g transform="translate(200, 0)">
+            <circle cx="50" cy="50" r="35" fill="#a6a6a6"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#000000" text-anchor="middle">%</text>
+        </g>
+        
+        <!-- 연산자 버튼 -->
+        <g transform="translate(300, 0)">
+            <circle cx="50" cy="50" r="35" fill="#ff9500"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">÷</text>
+        </g>
+        <g transform="translate(300, 100)">
+            <circle cx="50" cy="50" r="35" fill="#ff9500"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">×</text>
+        </g>
+        <g transform="translate(300, 200)">
+            <circle cx="50" cy="50" r="35" fill="#ff9500"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">-</text>
+        </g>
+        <g transform="translate(300, 300)">
+            <circle cx="50" cy="50" r="35" fill="#ff9500"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">+</text>
+        </g>
+        <g transform="translate(300, 400)">
+            <circle cx="50" cy="50" r="35" fill="#ff9500"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">=</text>
+        </g>
+        
+        <!-- 숫자 버튼 -->
+        <g transform="translate(0, 100)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">7</text>
+        </g>
+        <g transform="translate(100, 100)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">8</text>
+        </g>
+        <g transform="translate(200, 100)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">9</text>
+        </g>
+        <g transform="translate(0, 200)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">4</text>
+        </g>
+        <g transform="translate(100, 200)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">5</text>
+        </g>
+        <g transform="translate(200, 200)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">6</text>
+        </g>
+        <g transform="translate(0, 300)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">1</text>
+        </g>
+        <g transform="translate(100, 300)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">2</text>
+        </g>
+        <g transform="translate(200, 300)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">3</text>
+        </g>
+        <g transform="translate(0, 400)">
+            <rect x="15" y="15" width="170" height="70" rx="35" fill="#333333"/>
+            <text x="100" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">0</text>
+        </g>
+        <g transform="translate(200, 400)">
+            <circle cx="50" cy="50" r="35" fill="#333333"/>
+            <text x="50" y="55" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">.</text>
+        </g>
+    </g>
+    
+    <!-- 공학 함수 및 이력 -->
+    <g transform="translate(480, 220)">
+        <text x="0" y="15" font-family="Arial" font-size="16" fill="#ffffff">Scientific</text>
+        <!-- 공학 함수 버튼 -->
+        <g transform="translate(0, 40)">
+            <rect width="70" height="40" rx="5" fill="#333333"/>
+            <text x="35" y="25" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">sin</text>
+        </g>
+        <g transform="translate(80, 40)">
+            <rect width="70" height="40" rx="5" fill="#333333"/>
+            <text x="35" y="25" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">cos</text>
+        </g>
+        <g transform="translate(160, 40)">
+            <rect width="70" height="40" rx="5" fill="#333333"/>
+            <text x="35" y="25" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">tan</text>
+        </g>
+        
+        <!-- 계산 이력 -->
+        <text x="0" y="150" font-family="Arial" font-size="16" fill="#ffffff">History</text>
+        <g transform="translate(0, 170)">
+            <text font-family="monospace" font-size="14" fill="#888888">1. 2+sin(30)=2.5</text>
+            <text y="25" font-family="monospace" font-size="14" fill="#888888">2. log(100)=2</text>
+            <text y="50" font-family="monospace" font-size="14" fill="#888888">3. 5^2=25</text>
+        </g>
+    </g>
+</svg> 

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+    <!-- 배경 -->
+    <rect width="800" height="700" fill="#f5f5f5"/>
+    
+    <!-- 계산기 프레임 -->
+    <rect x="50" y="50" width="700" height="600" rx="20" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+    
+    <!-- 디스플레이 영역 -->
+    <rect x="70" y="70" width="660" height="100" rx="10" fill="#e8e8e8"/>
+    <text x="90" y="130" font-family="Arial" font-size="24" fill="#333333">1234.5678</text>
+    
+    <!-- 모드 전환 버튼 -->
+    <rect x="70" y="190" width="150" height="40" rx="5" fill="#4a90e2" stroke="#333333"/>
+    <text x="100" y="215" font-family="Arial" font-size="16" fill="#ffffff">일반 모드</text>
+    
+    <!-- 테마 전환 버튼 -->
+    <rect x="580" y="190" width="150" height="40" rx="5" fill="#4a90e2" stroke="#333333"/>
+    <text x="610" y="215" font-family="Arial" font-size="16" fill="#ffffff">다크 모드</text>
+    
+    <!-- 숫자 키패드 -->
+    <g transform="translate(70, 250)">
+        <!-- 숫자 1-9 -->
+        <g>
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">1</text>
+        </g>
+        <g transform="translate(70, 0)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">2</text>
+        </g>
+        <g transform="translate(140, 0)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">3</text>
+        </g>
+        <g transform="translate(0, 70)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">4</text>
+        </g>
+        <g transform="translate(70, 70)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">5</text>
+        </g>
+        <g transform="translate(140, 70)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">6</text>
+        </g>
+        <g transform="translate(0, 140)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">7</text>
+        </g>
+        <g transform="translate(70, 140)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">8</text>
+        </g>
+        <g transform="translate(140, 140)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">9</text>
+        </g>
+        <!-- 숫자 0 추가 -->
+        <g transform="translate(70, 210)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#333333">0</text>
+        </g>
+    </g>
+    
+    <!-- 연산자 키패드 -->
+    <g transform="translate(580, 250)">
+        <g>
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ff9500" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#ffffff">+</text>
+        </g>
+        <g transform="translate(0, 70)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ff9500" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#ffffff">-</text>
+        </g>
+        <g transform="translate(0, 140)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ff9500" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#ffffff">×</text>
+        </g>
+        <g transform="translate(0, 210)">
+            <rect x="0" y="0" width="60" height="60" rx="5" fill="#ff9500" stroke="#333333"/>
+            <text x="25" y="35" font-family="Arial" font-size="24" fill="#ffffff">÷</text>
+        </g>
+    </g>
+    
+    <!-- 함수 키패드 -->
+    <g transform="translate(70, 580)">
+        <g>
+            <rect x="0" y="0" width="60" height="40" rx="5" fill="#4a90e2" stroke="#333333"/>
+            <text x="15" y="25" font-family="Arial" font-size="14" fill="#ffffff">sin</text>
+        </g>
+        <g transform="translate(70, 0)">
+            <rect x="0" y="0" width="60" height="40" rx="5" fill="#4a90e2" stroke="#333333"/>
+            <text x="15" y="25" font-family="Arial" font-size="14" fill="#ffffff">cos</text>
+        </g>
+        <g transform="translate(140, 0)">
+            <rect x="0" y="0" width="60" height="40" rx="5" fill="#4a90e2" stroke="#333333"/>
+            <text x="15" y="25" font-family="Arial" font-size="14" fill="#ffffff">tan</text>
+        </g>
+        <g transform="translate(210, 0)">
+            <rect x="0" y="0" width="60" height="40" rx="5" fill="#4a90e2" stroke="#333333"/>
+            <text x="15" y="25" font-family="Arial" font-size="14" fill="#ffffff">log</text>
+        </g>
+        <g transform="translate(280, 0)">
+            <rect x="0" y="0" width="60" height="40" rx="5" fill="#4a90e2" stroke="#333333"/>
+            <text x="15" y="25" font-family="Arial" font-size="14" fill="#ffffff">ln</text>
+        </g>
+    </g>
+    
+    <!-- 이력 패널 -->
+    <rect x="580" y="480" width="150" height="120" rx="10" fill="#e8e8e8"/>
+    <text x="600" y="500" font-family="Arial" font-size="14" fill="#333333">계산 이력</text>
+    <line x1="580" y1="510" x2="730" y2="510" stroke="#333333"/>
+    <text x="600" y="530" font-family="Arial" font-size="12" fill="#333333">1. 1234.5678</text>
+    <text x="600" y="550" font-family="Arial" font-size="12" fill="#333333">2. 9876.5432</text>
+    <text x="600" y="570" font-family="Arial" font-size="12" fill="#333333">3. 4567.8901</text>
+</svg> 
